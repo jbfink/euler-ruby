@@ -13,3 +13,8 @@ range.each do |number|
 		end
 	end
 p newarray
+sum = 0
+newarray.each do |item|
+sum  += item
+end
+p sum
