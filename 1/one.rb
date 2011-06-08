@@ -6,4 +6,10 @@
 # slice everything out of that range divided by three or five with a modulo of zero, put that in another range, and add it up
 
 range = (1..1000).to_a
-
+newarray = []
+range.each do |number|
+	if number.modulo(3) == 0 or number.modulo(5) == 0 then
+		newarray.push(number)
+		end
+	end
+p newarray
