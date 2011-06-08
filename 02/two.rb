@@ -5,3 +5,13 @@
 #By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 #
 #
+#notes:
+#At the BEGINNING, we want:
+#an empty array
+#two values, a and b.
+#adding a and b together gives a value to push into the array
+#after the value is pushed:
+#b becomes a
+#value becomes b
+#repeat until array is filled.
+#right?
