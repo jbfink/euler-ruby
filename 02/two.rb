@@ -21,10 +21,12 @@ a = 0
 b = 1
 array = []
 while array.length < 10
-   value = a+b
-   array.push(value)
-   oldb = b
-   olda = a
-   value = b
-   a = oldb
-   end
+value = a+b
+array.push(value)
+oldb = b
+olda = a
+b = value
+a = oldb
+end
+p array
+p array.length
