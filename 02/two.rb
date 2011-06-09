@@ -15,3 +15,16 @@
 #value becomes b
 #repeat until array is filled.
 #right?
+
+#the following doesn't work but I know it's *close*. here for reference.
+a = 0
+b = 1
+array = []
+while array.length < 10
+   value = a+b
+   array.push(value)
+   oldb = b
+   olda = a
+   value = b
+   a = oldb
+   end
