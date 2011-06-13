@@ -16,11 +16,13 @@
 #repeat until array is filled.
 #right?
 
-#the following doesn't work but I know it's *close*. here for reference.
+#I have to "seed" the array with a 0 so that array[-1] is not nil. This is a terrible ugly thing, but I am too dumb
+#to figure it out. Sorry. Also, sorry for the array.pop/array.unshift. Also not ideal.
+
 a = 0
 b = 1
-array = []
-while array.length < 10
+array = [0]
+while array[-1] < 4_000_000
 value = a+b
 array.push(value)
 oldb = b
@@ -28,5 +30,7 @@ olda = a
 b = value
 a = oldb
 end
+array.pop
+array.shift
 p array
 p array.length
