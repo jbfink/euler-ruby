@@ -32,5 +32,13 @@ a = oldb
 end
 array.pop
 array.shift
-p array
-p array.length
+newarray = []
+array.each do |value|
+     if value.modulo(2) == 0 then
+     newarray.push(value)
+     end
+   end
+
+p newarray
+#p array
+#p array.length
