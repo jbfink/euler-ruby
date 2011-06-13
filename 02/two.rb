@@ -40,5 +40,11 @@ array.each do |value|
    end
 
 p newarray
+sum = 0
+
+newarray.each do |item|
+sum += item
+end
+p sum 
 #p array
 #p array.length
