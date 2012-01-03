@@ -1,9 +1,3 @@
-#The sum of the squares of the first ten natural numbers is,
+#The prime factors of 13195 are 5, 7, 13 and 29.
 #
-#1^2 + 2^2 + ... + 10^2 = 385
-#The square of the sum of the first ten natural numbers is,
-#
-#(1 + 2 + ... + 10)^2 = 55^2 = 3025
-#Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 - 385 = 2640.
-#
-#Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+#What is the largest prime factor of the number 600851475143 ?
