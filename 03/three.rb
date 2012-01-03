@@ -2,6 +2,10 @@
 #
 #What is the largest prime factor of the number 600851475143 ?
 class Integer
+def divisors
+return (1..self).to_a
+end
 def is_prime?
 #code goes here
+end
 end
