@@ -53,3 +53,12 @@ def is_probably_prime?(n)
     end
     return true;
 end
+
+def is_prime?(n)
+  return true if n <= 2
+  return false if n & 1 == 0
+  # runs the block for each number from 2 to sqrt(n)
+  # only returns true if the block *never* returns true
+  (3..(Math.sqrt(n).to_i)).step(2).none? { |i| n%i == 0 }
+end
+
