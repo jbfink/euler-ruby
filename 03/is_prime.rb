@@ -1,6 +1,7 @@
 class Integer
       def is_prime?
       return true if self == 1
+      return false if self.even?
           array = []
           (1..self).to_a.each do |i|
                 array.push(self % i)
